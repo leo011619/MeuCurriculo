@@ -1,0 +1,71 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: row;
+    margin: 0px 250px !important ;
+}
+
+.barra-infos{
+    background:lightblue;
+    width: 40vh;
+    display:flex;
+    flex-flow: column wrap;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-right: 20px ;
+}
+
+div{
+    padding: 15px;
+}
+
+img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+    padding-top: 15px;
+}
+
+.titulo{
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
+}
+
+.perfil{
+    padding-bottom: 15px;
+}
+
+/*--------------------------------------Barra principal-----------------------------------------*/
+.perfil-profissional,
+.graduacao,
+.experiencia,
+.aperfeicoamento{
+    border: solid 3px black;
+    margin: 10px 10px 0px 0px;
+    padding: 20px;
+}
+.aperfeicoamento{
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 1400px){
+    body{
+        margin: 0px 125px !important;
+    }
+}
+@media screen and (max-width: 1100px){
+    body{
+        margin: 0px 75px !important;
+    }
+}
+@media screen and (max-width: 700px){
+    body{
+        margin: 0px 25px !important;
+    }
+}
